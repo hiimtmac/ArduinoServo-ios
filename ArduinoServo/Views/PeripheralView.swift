@@ -17,11 +17,11 @@ struct PeripheralView: View {
         VStack {
             HStack {
                 Spacer()
-                Button(action: {}) {
+                Button(action: ble.stopScanning) {
                     Text("Stop Scanning")
                 }.disabled(!ble.isScanning)
                 Spacer()
-                Button(action: {}) {
+                Button(action: ble.startScanning) {
                     Text("Start Scanning")
                 }.disabled(ble.isScanning)
                 Spacer()
@@ -39,7 +39,7 @@ struct PeripheralView: View {
                     }
                 }
                 Section(header: Text("Peripherals")) {
-                    ForEach(ble.peripherals, id: \.name) { peripheral in
+                    ForEach(ble.peripherals, id: \.identifier) { peripheral in
                         Button(action: { self.ble.connect(to: peripheral) }) {
                             Text(peripheral.name ?? "unknown")
                         }
@@ -47,6 +47,7 @@ struct PeripheralView: View {
                 }
             }
         }
+        .navigationBarTitle("Connection")
     }
 }
 

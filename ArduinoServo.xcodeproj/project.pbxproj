@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7CA59CA23AF018300E82F4C /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CA59C923AF018300E82F4C /* ActionView.swift */; };
 		D7F9162823AEBFF900AE5DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9162723AEBFF900AE5DE0 /* AppDelegate.swift */; };
 		D7F9162A23AEBFF900AE5DE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9162923AEBFF900AE5DE0 /* SceneDelegate.swift */; };
 		D7F9162C23AEBFF900AE5DE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9162B23AEBFF900AE5DE0 /* ContentView.swift */; };
@@ -16,10 +17,10 @@
 		D7F9164123AEC0D500AE5DE0 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9164023AEC0D500AE5DE0 /* BLEManager.swift */; };
 		D7F9164323AEC2D700AE5DE0 /* BLEKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9164223AEC2D700AE5DE0 /* BLEKeys.swift */; };
 		D7F9164523AEC8AF00AE5DE0 /* PeripheralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9164423AEC8AF00AE5DE0 /* PeripheralView.swift */; };
-		D7F9164723AECDFE00AE5DE0 /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9164623AECDFE00AE5DE0 /* Peripheral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7CA59C923AF018300E82F4C /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
 		D7F9162423AEBFF900AE5DE0 /* ArduinoServo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArduinoServo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F9162723AEBFF900AE5DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F9162923AEBFF900AE5DE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		D7F9164023AEC0D500AE5DE0 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 		D7F9164223AEC2D700AE5DE0 /* BLEKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEKeys.swift; sourceTree = "<group>"; };
 		D7F9164423AEC8AF00AE5DE0 /* PeripheralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralView.swift; sourceTree = "<group>"; };
-		D7F9164623AECDFE00AE5DE0 /* Peripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peripheral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +86,7 @@
 			children = (
 				D7F9162B23AEBFF900AE5DE0 /* ContentView.swift */,
 				D7F9164423AEC8AF00AE5DE0 /* PeripheralView.swift */,
+				D7CA59C923AF018300E82F4C /* ActionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -113,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				D7F9163F23AEC06600AE5DE0 /* Bluetooth */,
-				D7F9164623AECDFE00AE5DE0 /* Peripheral.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,12 +199,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F9164323AEC2D700AE5DE0 /* BLEKeys.swift in Sources */,
-				D7F9164723AECDFE00AE5DE0 /* Peripheral.swift in Sources */,
 				D7F9162823AEBFF900AE5DE0 /* AppDelegate.swift in Sources */,
 				D7F9164523AEC8AF00AE5DE0 /* PeripheralView.swift in Sources */,
 				D7F9164123AEC0D500AE5DE0 /* BLEManager.swift in Sources */,
 				D7F9162A23AEBFF900AE5DE0 /* SceneDelegate.swift in Sources */,
 				D7F9162C23AEBFF900AE5DE0 /* ContentView.swift in Sources */,
+				D7CA59CA23AF018300E82F4C /* ActionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

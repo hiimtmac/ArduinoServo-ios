@@ -9,8 +9,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var tag = 0
+    @State var ble = BLEManager()
+    
     var body: some View {
-        Text("Hello, World!")
+        TabView(selection: $tag) {
+            NavigationView {
+                ActionView(ble: ble)
+            }
+            .tag(0)
+            .tabItem {
+                VStack {
+                    Image(systemName: "cloud")
+                    Text("Actions")
+                }
+            }
+            NavigationView {
+                PeripheralView(ble: ble)
+            }
+            .tag(1)
+            .tabItem {
+                VStack {
+                    Image(systemName: "gear")
+                    Text("Settings")
+                }
+            }
+        }
     }
 }
 
