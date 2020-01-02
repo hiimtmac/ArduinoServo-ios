@@ -61,17 +61,9 @@ class BLEManager: NSObject, ObservableObject {
         }
     }
     
-    struct Message: Codable {
-        let message: String
-        let code: Int
-    }
-    
     func writeValue(message: String) {
-//        let data = Data(message.utf8)
         let data = Data(message.utf8)
-//        let message = Message(message: message, code: 200)
         if let connected = connectedPeripheral, let tx = txCharacteristic {
-            print("sending...")
             connected.writeValue(data, for: tx, type: .withResponse)
         }
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7B7016C23BD8417004A6D4F /* DialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7016B23BD8417004A6D4F /* DialView.swift */; };
 		D7CA59CA23AF018300E82F4C /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CA59C923AF018300E82F4C /* ActionView.swift */; };
 		D7F9162823AEBFF900AE5DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9162723AEBFF900AE5DE0 /* AppDelegate.swift */; };
 		D7F9162A23AEBFF900AE5DE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9162923AEBFF900AE5DE0 /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7B7016B23BD8417004A6D4F /* DialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialView.swift; sourceTree = "<group>"; };
 		D7CA59C923AF018300E82F4C /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
 		D7F9162423AEBFF900AE5DE0 /* ArduinoServo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArduinoServo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F9162723AEBFF900AE5DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				D7F9162B23AEBFF900AE5DE0 /* ContentView.swift */,
 				D7F9164423AEC8AF00AE5DE0 /* PeripheralView.swift */,
 				D7CA59C923AF018300E82F4C /* ActionView.swift */,
+				D7B7016B23BD8417004A6D4F /* DialView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				D7F9164123AEC0D500AE5DE0 /* BLEManager.swift in Sources */,
 				D7F9162A23AEBFF900AE5DE0 /* SceneDelegate.swift in Sources */,
 				D7F9162C23AEBFF900AE5DE0 /* ContentView.swift in Sources */,
+				D7B7016C23BD8417004A6D4F /* DialView.swift in Sources */,
 				D7CA59CA23AF018300E82F4C /* ActionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
